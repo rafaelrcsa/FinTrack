@@ -1,0 +1,26 @@
+# .NET
+bin/
+obj/
+*.user
+
+# Node / frontend
+node_modules/
+dist/
+frontend/.vite/
+
+# Env
+.env
+*.local
+
+# Local machine-specific TLS certs (e.g. antivirus SSL scanning root CA)
+**/certs/*.crt
+
+# Editor / OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
